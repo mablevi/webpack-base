@@ -1,0 +1,34 @@
+{
+  "name": "webpack-base",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mablevi/webpack-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mablevi/webpack-base/issues"
+  },
+  "homepage": "https://github.com/mablevi/webpack-base#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
