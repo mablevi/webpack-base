@@ -6,6 +6,15 @@
 ## 使用
 * npm run dev
 
+## 依赖及插件
+* webpack webpack-cli webpack-dev-server
+* babel-loader babel-core bable-preset-env babel-preset-stage-2
+* css-loader style-loader html-loader
+* html-webpack-plugin
+* friendly-errors-webpack-plugin
+* copy-webpack-plugin
+* portfinder
+
 ### 扩展阅读
 * [webpack中文官网](https://www.webpackjs.com/)
 * [入门 Webpack，看这篇就够了](https://segmentfault.com/a/1190000006178770)
