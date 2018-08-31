@@ -1,8 +1,2 @@
-const a = require('./a.js')
-
-function hello(str) {
-  alert(str)
-}
-hello('hello world')
-
-a.arrowTest()
+var a = '3';
+console.log(a)
