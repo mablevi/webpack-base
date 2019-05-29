@@ -59,11 +59,6 @@ const devWebpackConfig = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
-    new FriendlyErrorsWebpackPlugin({
-      compilationSuccessInfo: {
-        messages: [`Your application is running at here: http://0.0.0.0:7000`]
-      }
-    })
   ]
 }
 
